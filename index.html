@@ -43,6 +43,71 @@
     <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
+    <!-- Structured Data JSON-LD Schema for Google Sitelinks -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://www.drexagency.shop/#website",
+          "url": "https://www.drexagency.shop/",
+          "name": "Drex Agency",
+          "description": "High-converting Web Development, Google Maps SEO, and Meta Ads in South Bopal, Ahmedabad",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Drex Agency",
+            "url": "https://www.drexagency.shop/",
+            "logo": "https://www.drexagency.shop/logo.png"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.drexagency.shop/#sitelinks",
+          "name": "Main Navigation",
+          "itemListElement": [
+            {
+              "@type": "SiteNavigationElement",
+              "position": 1,
+              "name": "Services",
+              "url": "https://www.drexagency.shop/services.html"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 2,
+              "name": "Portfolio & Case Studies",
+              "url": "https://www.drexagency.shop/case-studies.html"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 3,
+              "name": "Blog & Insights",
+              "url": "https://www.drexagency.shop/blog.html"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 4,
+              "name": "Pricing & Packages",
+              "url": "https://www.drexagency.shop/pricing.html"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 5,
+              "name": "About Us",
+              "url": "https://www.drexagency.shop/about.html"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 6,
+              "name": "Contact Us",
+              "url": "https://www.drexagency.shop/contact.html"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
     <style>
       .handwriting-font {
         font-family: 'Caveat', cursive;
