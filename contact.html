@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us & Free Growth Audit - Drex Agency Ahmedabad</title>
+    
+    <!-- SEO & Social Sharing Meta Tags -->
+    <meta name="description" content="Contact Drex Agency in Satellite, Ahmedabad. Request a free digital growth audit or consult with founder Vikash Kumar for web development and Meta ad campaigns." />
+    <meta name="keywords" content="Contact Drex Agency, Digital Agency Satellite Ahmedabad, Web Developer Contact Gujarat, Vikash Kumar Phone" />
+    <meta name="author" content="Vikash Kumar - Drex Agency" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact Us & Free Growth Audit - Drex Agency Ahmedabad" />
+    <meta property="og:description" content="Connect directly with Drex Agency in Satellite, Ahmedabad." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=1200" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              display: ['"Space Grotesk"', 'sans-serif'],
+              handwriting: ['"Caveat"', 'cursive'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+      .handwriting-font {
+        font-family: 'Caveat', cursive;
+      }
+      .drex-logo-header {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+      }
+      .drex-logo-footer {
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body class="bg-[#030712] text-slate-100 antialiased selection:bg-blue-600 selection:text-white min-h-screen overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed top-3 sm:top-4 inset-x-0 z-50 max-w-5xl mx-auto px-3 sm:px-6">
+      <div class="bg-[#090d16]/90 backdrop-blur-md rounded-full border border-dashed border-slate-700/80 px-4 sm:px-6 py-2.5 sm:py-3 shadow-xl shadow-black/40 flex items-center justify-between">
+        
+        <a href="index.html" class="flex items-center gap-2.5 text-left group">
+          <div class="relative flex items-center justify-center shrink-0">
+            <img 
+              src="logo.png" 
+              alt="Drex Agency Logo" 
+              class="drex-logo-header rounded-full shadow-md shadow-blue-600/30 group-hover:scale-105 transition-transform" 
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" 
+            />
+            <div class="w-8 h-8 rounded-full bg-blue-600 hidden items-center justify-center font-extrabold text-white text-base shadow-md shadow-blue-600/30 group-hover:scale-105 transition-transform">
+              D
+            </div>
+          </div>
+          <div class="flex flex-col justify-center">
+            <div class="handwriting-font font-bold text-xl sm:text-2xl leading-none tracking-wide">
+              <span class="text-blue-500">Drex</span>
+              <span class="text-white">Agency</span>
+            </div>
+            <span class="text-[9px] text-slate-400 hidden sm:block -mt-0.5 font-medium tracking-wider uppercase">
+              Ahmedabad
+            </span>
+          </div>
+        </a>
+
+        <div class="flex items-center gap-2 sm:gap-3">
+          <button
+            onclick="openInquiryModal('Contact Direct Inquiry')"
+            class="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white transition-all cursor-pointer shadow-md shadow-blue-600/30 hover:scale-105"
+          >
+            <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+            <span>Enquire Now</span>
+          </button>
+
+          <button
+            onclick="toggleMenu()"
+            class="p-2.5 rounded-full bg-slate-800/90 text-slate-300 hover:text-white hover:bg-slate-700 cursor-pointer border border-slate-700/60 transition-colors flex items-center justify-center shadow-sm"
+            aria-label="Toggle menu"
+          >
+            <i data-lucide="menu" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Menu Dropdown -->
+      <div id="menu-dropdown" class="hidden mt-2 bg-[#090d16]/95 backdrop-blur-xl border border-dashed border-slate-700/80 rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-2xl shadow-black/80 space-y-1.5 animate-in fade-in slide-in-from-top-2 duration-200 max-w-sm sm:max-w-md ml-auto">
+        <div class="flex flex-col space-y-1">
+          <a href="index.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
+            <span>Home</span>
+          </a>
+          <a href="services.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
+            <span>Services</span>
+          </a>
+          <a href="case-studies.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
+            <span>Portfolio & Case Studies</span>
+          </a>
+          <a href="blog.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
+            <span>Blog & Insights</span>
+          </a>
+          <a href="pricing.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
+            <span>Pricing & Packages</span>
+          </a>
+          <a href="about.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:bg-slate-800/70 hover:text-white transition-all">
+            <span>About Us</span>
+          </a>
+          <a href="contact.html" class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-blue-600/20 text-blue-400 border border-blue-500/30 transition-all">
+            <span>Contact Us</span>
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="pt-28 sm:pt-36 pb-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 mb-6">
+        <a href="index.html" class="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-white transition-colors px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 shadow-sm">
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5 text-blue-400"></i>
+          <span>Back to Home</span>
+        </a>
+      </div>
+
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 text-center mb-16">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-600/10 border border-blue-500/30 text-blue-400 text-xs font-semibold tracking-wide uppercase mb-4">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5"></i>
+          <span>GET IN TOUCH WITH OUR TEAM</span>
+        </div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
+          Contact Drex Agency
+        </h1>
+        <p class="text-slate-400 text-xs sm:text-base max-w-2xl mx-auto leading-relaxed">
+          Request a complimentary 20-minute digital strategy audit or schedule a direct consultation with founder Vikash Kumar.
+        </p>
+      </section>
+
+      <!-- Contact Info & Form Grid -->
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-10">
+        
+        <!-- Contact Cards -->
+        <div class="space-y-6">
+          <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-4">
+            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-5 h-5 text-blue-400"></i>
+              <span>Ahmedabad Headquarters</span>
+            </h2>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              SG Highway, Satellite, Ahmedabad, Gujarat 380015, India
+            </p>
+            <div class="pt-2 text-xs text-slate-400 space-y-2 border-t border-slate-800">
+              <p class="flex items-center gap-2">
+                <i data-lucide="clock" class="w-4 h-4 text-emerald-400"></i>
+                <span>Mon - Sat: 9:30 AM - 7:30 PM IST</span>
+              </p>
+              <p class="flex items-center gap-2">
+                <i data-lucide="phone" class="w-4 h-4 text-blue-400"></i>
+                <a href="tel:+916377155600" class="hover:text-white font-semibold text-slate-200">+91 91060 93850</a>
+              </p>
+              <p class="flex items-center gap-2">
+                <i data-lucide="mail" class="w-4 h-4 text-blue-400"></i>
+                <a href="mailto:contact@drexagency.com" class="hover:text-white font-semibold text-slate-200">contact@drexagency.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-emerald-950/50 to-slate-900 border border-emerald-500/30 rounded-3xl p-6 sm:p-8 space-y-3">
+            <div class="flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+              <i data-lucide="zap" class="w-4 h-4"></i>
+              <span>Instant Response via WhatsApp</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">Need an Immediate Consultation?</h3>
+            <p class="text-xs text-slate-300">
+              Chat directly with our founder Vikash Kumar on WhatsApp for quick inquiries or project quotes.
+            </p>
+            <a href="https://wa.me/916377155600" target="_blank" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold shadow-lg shadow-emerald-600/30 transition-all cursor-pointer">
+              <i data-lucide="message-square" class="w-4 h-4"></i>
+              <span>Open WhatsApp Chat</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Direct Contact Form -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-4 shadow-2xl">
+          <h2 class="text-xl font-bold text-white">Send Us a Direct Message</h2>
+          <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Your Full Name</label>
+              <input type="text" id="contact-name" required placeholder="e.g. Rahul Patel" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Phone / WhatsApp Number</label>
+              <input type="tel" id="contact-phone" required placeholder="+91 98765 43210" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Service Required</label>
+              <select id="contact-service" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-blue-500 transition-colors">
+                <option value="React Web Development">React Web Application Build</option>
+                <option value="Local Google Maps SEO">Local Google Maps SEO & 3-Pack</option>
+                <option value="Meta Ads Lead Gen">Meta & Instagram Ad Campaigns</option>
+                <option value="General Growth Consultation">General Growth Consultation</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Project Details / Goals</label>
+              <textarea id="contact-message" rows="3" placeholder="Tell us briefly about your business and goals..." class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"></textarea>
+            </div>
+            <button type="submit" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold shadow-lg shadow-blue-600/30 transition-all cursor-pointer">
+              Submit Direct Inquiry
+            </button>
+          </form>
+        </div>
+
+      </section>
+
+      <!-- Terms / Privacy Section Anchors -->
+      <section id="privacy" class="max-w-6xl mx-auto px-4 sm:px-6 mt-16 pt-8 border-t border-slate-800/80 text-xs text-slate-400 space-y-4">
+        <h3 class="text-sm font-bold text-white">Privacy Policy & Transparency</h3>
+        <p class="leading-relaxed">
+          Drex Agency values your privacy. Any phone numbers, business details, or contact information shared with us are strictly used for initial consultation and project execution. We never share or sell client information to third parties.
+        </p>
+      </section>
+
+      <section id="terms" class="max-w-6xl mx-auto px-4 sm:px-6 mt-8 pt-4 text-xs text-slate-400 space-y-4">
+        <h3 class="text-sm font-bold text-white">Terms of Service</h3>
+        <p class="leading-relaxed">
+          All service deliverables, ROI targets, and campaign timelines are clearly specified in custom project proposals before commencement. Results are measured using transparent analytics and client dashboard reports.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050914] border-t border-slate-800/80 pt-16 pb-12 mt-20 text-slate-400 text-xs">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800/80">
+          <div class="lg:col-span-2 space-y-4">
+            <a href="index.html" class="flex items-center gap-2.5">
+              <div class="relative flex items-center justify-center shrink-0">
+                <img 
+                  src="logo.png" 
+                  alt="Drex Agency Logo" 
+                  class="drex-logo-footer rounded-full shadow-md shadow-blue-600/30" 
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" 
+                />
+                <div class="w-9 h-9 rounded-full bg-blue-600 hidden items-center justify-center font-extrabold text-white text-lg shadow-md shadow-blue-600/30">
+                  D
+                </div>
+              </div>
+              <div class="flex flex-col justify-center">
+                <div class="handwriting-font font-bold text-2xl leading-none tracking-wide">
+                  <span class="text-blue-500">Drex</span>
+                  <span class="text-white">Agency</span>
+                </div>
+                <span class="text-[9px] text-slate-400 font-medium tracking-wider uppercase">Ahmedabad, India</span>
+              </div>
+            </a>
+            <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
+              Drex Agency is Ahmedabad's premier digital growth & web development firm.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="text-xs font-bold text-white uppercase tracking-wider">Quick Navigation</h4>
+            <ul class="space-y-2 text-xs">
+              <li><a href="index.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Home</a></li>
+              <li><a href="services.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Services</a></li>
+              <li><a href="case-studies.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Portfolio & Case Studies</a></li>
+              <li><a href="blog.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Blog & Insights</a></li>
+              <li><a href="pricing.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Pricing & Packages</a></li>
+              <li><a href="about.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> About Us</a></li>
+              <li><a href="contact.html" class="hover:text-white transition-colors flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-blue-400"></i> Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="text-xs font-bold text-white uppercase tracking-wider">Our Expertise</h4>
+            <ul class="space-y-2 text-xs">
+              <li><a href="services.html#web-dev" class="hover:text-white">React Web Apps</a></li>
+              <li><a href="services.html#local-seo" class="hover:text-white">Local Google Maps SEO</a></li>
+              <li><a href="services.html#meta-ads" class="hover:text-white">Meta & Instagram Ads</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="text-xs font-bold text-white uppercase tracking-wider">Ahmedabad HQ</h4>
+            <div class="space-y-2 text-xs text-slate-400">
+              <p>SG Highway, Satellite, Ahmedabad, Gujarat 380015</p>
+              <p><a href="tel:+916377155600" class="hover:text-white">+91 91060 93850</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-8 flex items-center justify-between text-xs text-slate-500">
+          <div>© 2026 <strong>Drex Agency</strong>. Founded by Vikash Kumar. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+      function toggleMenu() { document.getElementById('menu-dropdown').classList.toggle('hidden'); }
+      function openInquiryModal(service) {
+        const text = encodeURIComponent(`Hi Drex Agency! I am inquiring regarding: ${service}`);
+        window.open(`https://wa.me/916377155600?text=${text}`, '_blank');
+      }
+      function handleFormSubmit(e) {
+        e.preventDefault();
+        const name = document.getElementById('contact-name').value;
+        const phone = document.getElementById('contact-phone').value;
+        const service = document.getElementById('contact-service').value;
+        const msg = document.getElementById('contact-message').value;
+        const text = encodeURIComponent(`New Contact Form Submission:\nName: ${name}\nPhone: ${phone}\nService: ${service}\nNotes: ${msg}`);
+        window.open(`https://wa.me/916377155600?text=${text}`, '_blank');
+      }
+    </script>
+  </body>
+</html>
