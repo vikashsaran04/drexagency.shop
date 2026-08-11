@@ -1,7 +1,6 @@
 {
-  "name": "Nexora Interior - Premium Home Interior Design",
-  "description": "Modern, high-converting website for Nexora Interior, a premium home interior design company in Ahmedabad, Gujarat.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
+  "name": "Drex Agency",
+  "description": "Next-Gen Web Development & High-ROI Digital Marketing Agency in Ahmedabad, Gujarat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
