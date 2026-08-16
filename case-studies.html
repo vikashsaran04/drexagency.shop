@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Case Studies & Verified ROI - Drex Agency South Bopal Ahmedabad</title>
+    <title>Portfolio & Case Studies - Drex Agency South Bopal Ahmedabad</title>
     <link rel="icon" type="image/png" href="logo.png" />
     <link rel="shortcut icon" href="logo.png" type="image/png" />
     
     <!-- SEO & Social Sharing Meta Tags -->
-    <meta name="description" content="Explore real client case studies, strategy breakdowns, and verified ROI results engineered by Drex Agency in South Bopal, Ahmedabad." />
-    <meta name="keywords" content="Drex Agency Case Studies, Marketing ROI, Interior Design Marketing, Real Estate Web Development" />
+    <meta name="description" content="Explore live client websites, verified case studies, and digital growth results engineered by Drex Agency in South Bopal, Ahmedabad." />
+    <meta name="keywords" content="Drex Agency Case Studies, Ahmedabad Web Portfolio, Client Websites Gujarat, Meta Ads ROI, Local SEO Case Studies" />
     <meta name="author" content="Vikash Kumar - Drex Agency" />
 
     <!-- Open Graph / WhatsApp Preview -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Case Studies & Proven ROI - Drex Agency" />
-    <meta property="og:description" content="Explore real client case studies and verified ROI results engineered by Drex Agency." />
+    <meta property="og:title" content="Portfolio & Case Studies - Drex Agency South Bopal" />
+    <meta property="og:description" content="Live client websites, verified growth benchmarks, and ROI case studies by Drex Agency." />
     <meta property="og:image" content="https://www.drexagency.shop/Vikash%20Kumar%20Profile%20photo.jpeg" />
 
     <!-- Google Fonts -->
@@ -34,6 +34,9 @@
               sans: ['"Plus Jakarta Sans"', 'sans-serif'],
               display: ['"Space Grotesk"', 'sans-serif'],
               handwriting: ['"Caveat"', 'cursive'],
+            },
+            screens: {
+              'xs': '420px',
             }
           }
         }
@@ -56,6 +59,18 @@
         width: 36px;
         height: 36px;
         object-fit: contain;
+      }
+      .line-clamp-1 {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .line-clamp-2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
     </style>
   </head>
@@ -84,21 +99,22 @@
               <span class="text-white">Agency</span>
             </div>
             <span class="text-[9px] text-slate-400 hidden sm:block -mt-0.5 font-medium tracking-wider uppercase">
-              Ahmedabad
+              South Bopal
             </span>
           </div>
         </a>
 
         <!-- Right Side Controls -->
         <div class="flex items-center gap-2 sm:gap-3">
-          <!-- Desktop Query Button -->
-          <button
-            onclick="openInquiryModal('Case Studies General Inquiry')"
-            class="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white transition-all cursor-pointer shadow-md shadow-blue-600/30 hover:scale-105"
+          <!-- WhatsApp Quick Contact -->
+          <a
+            href="https://wa.me/916377155600?text=Hi%20Drex%20Agency!%20I%20want%20to%20discuss%20a%20website%20project"
+            target="_blank"
+            class="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition-all cursor-pointer shadow-md shadow-emerald-600/30 hover:scale-105"
           >
             <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
-            <span>Enquire Now</span>
-          </button>
+            <span>WhatsApp Us</span>
+          </a>
 
           <!-- Extreme Right Menu Button -->
           <button
@@ -139,278 +155,309 @@
         </div>
 
         <div class="pt-2.5 border-t border-slate-800/80 flex items-center justify-between gap-2 px-1">
-          <a href="tel:+919106093850" class="text-xs text-slate-400 hover:text-white flex items-center gap-1.5 transition-colors">
-            <i data-lucide="phone-call" class="w-3.5 h-3.5 text-blue-400"></i>
-            <span>+91 91060 93850</span>
+          <a href="tel:+918529326036" class="text-xs text-slate-400 hover:text-white flex items-center gap-1.5 transition-colors">
+            <i data-lucide="phone-call" class="w-3.5 h-3.5 text-red-400"></i>
+            <span>+91 8529326036</span>
           </a>
-          <button onclick="openInquiryModal('Case Studies WhatsApp Inquire')" class="px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white flex items-center gap-1.5 shadow-md shadow-blue-600/20 cursor-pointer">
+          <a href="https://wa.me/916377155600" target="_blank" class="px-4 py-2 rounded-xl text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 shadow-md shadow-emerald-600/20 cursor-pointer">
             <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
-            <span>Inquire</span>
-          </button>
+            <span>WhatsApp</span>
+          </a>
         </div>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="pt-28 sm:pt-36 pb-20">
+    <main class="pt-24 sm:pt-32 pb-16">
       
-      <!-- Back to Home Bar -->
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 mb-6">
-        <a href="index.html" class="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-white transition-colors px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 shadow-sm">
+      <!-- Top Navigation Pill -->
+      <div class="max-w-6xl mx-auto px-3 sm:px-6 mb-4 sm:mb-6">
+        <a href="index.html" class="inline-flex items-center gap-1.5 text-[11px] sm:text-xs font-semibold text-slate-400 hover:text-white transition-colors px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl bg-slate-900 border border-slate-800 shadow-sm">
           <i data-lucide="arrow-left" class="w-3.5 h-3.5 text-blue-400"></i>
           <span>Back to Home</span>
         </a>
       </div>
 
-      <!-- Hero Header -->
-      <section class="max-w-6xl mx-auto px-4 sm:px-6 text-center mb-12">
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-600/10 border border-blue-500/30 text-blue-400 text-xs font-semibold tracking-wide uppercase mb-4">
-          <i data-lucide="bar-chart-2" class="w-3.5 h-3.5"></i>
-          <span>PROVEN CLIENT ROI & GROWTH BENCHMARKS</span>
+      <!-- Hero Header (Compact on mobile) -->
+      <section class="max-w-6xl mx-auto px-3 sm:px-6 text-center mb-6 sm:mb-10">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-600/10 border border-blue-500/30 text-blue-400 text-[10px] sm:text-xs font-semibold tracking-wide uppercase mb-2 sm:mb-3">
+          <i data-lucide="globe" class="w-3 h-3 text-cyan-400"></i>
+          <span>OUR LIVE WEBSITES & CASE STUDIES</span>
         </div>
-        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-          Case Studies & Client Breakthroughs
+        <h1 class="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-2 sm:mb-3">
+          Featured Websites & Portfolio
         </h1>
-        <p class="text-slate-400 text-xs sm:text-base max-w-2xl mx-auto leading-relaxed">
-          Real business transformations engineered by Drex Agency for clients across Ahmedabad and Gujarat.
+        <p class="text-slate-400 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
+          High-performance web applications, local brands, and business websites built by Drex Agency in Ahmedabad.
         </p>
       </section>
 
-      <!-- Category Filter Tabs -->
-      <section class="max-w-6xl mx-auto px-4 sm:px-6 mb-10">
-        <div class="flex flex-wrap items-center justify-center gap-2">
-          <button onclick="filterProjects('all')" class="project-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white transition-colors cursor-pointer" data-cat="all">All Projects</button>
-          <button onclick="filterProjects('Interior Design')" class="project-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-900 text-slate-400 border border-slate-800 hover:text-white transition-colors cursor-pointer" data-cat="Interior Design">Interior Design</button>
-          <button onclick="filterProjects('Real Estate')" class="project-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-900 text-slate-400 border border-slate-800 hover:text-white transition-colors cursor-pointer" data-cat="Real Estate">Real Estate</button>
-          <button onclick="filterProjects('Healthcare')" class="project-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-900 text-slate-400 border border-slate-800 hover:text-white transition-colors cursor-pointer" data-cat="Healthcare">Healthcare & Clinics</button>
+
+      <!-- Case Studies / Website Showcase Grid -->
+      <!-- In Mobile View: 2 columns grid (grid-cols-2) so 4 posts fit in a single mobile screen height! -->
+      <section class="max-w-6xl mx-auto px-2.5 sm:px-6">
+        <div id="projects-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-4 md:gap-5">
+
+          <!-- Card 1: Sudama Global Health -->
+          <div class="case-card bg-slate-900/90 border border-slate-800/90 rounded-2xl p-2.5 sm:p-4 hover:border-blue-500/50 transition-all flex flex-col justify-between shadow-lg group hover:-translate-y-1 duration-200" data-cat="Interior">
+            <div>
+              <!-- Photo / Screenshot -->
+              <div class="relative overflow-hidden rounded-xl bg-slate-950 aspect-[4/3] mb-2 sm:mb-3">
+                <img 
+                  src="Sudama Global Health.jpg" 
+                  alt="Sudama Global Health" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <span class="absolute top-1.5 left-1.5 bg-blue-600/90 backdrop-blur-sm text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-md shadow">
+                  Healthcare 
+                </span>
+                <span class="absolute bottom-1.5 right-1.5 bg-slate-950/80 backdrop-blur-sm text-emerald-400 text-[8px] sm:text-[9px] font-semibold px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live
+                </span>
+              </div>
+
+              <!-- Title (Website Name) -->
+              <h3 class="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-1 group-hover:text-blue-400 transition-colors mb-1">
+                Sudama Global Health
+              </h3>
+
+              <!-- Description -->
+              <p class="text-[10px] sm:text-xs text-slate-400 line-clamp-2 leading-snug sm:leading-relaxed mb-2.5">
+                Premium design for hospital and transport-related websites.
+              </p>
+            </div>
+
+            <!-- Website Link Button -->
+            <div class="pt-1 border-t border-slate-800/80">
+              <a 
+                href="https://www.sudamaglobalhealth.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full py-1.5 px-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[10px] sm:text-xs font-semibold flex items-center justify-center gap-1 transition-all shadow-sm shadow-blue-600/30"
+              >
+                <span>Visit Website</span>
+                <i data-lucide="external-link" class="w-3 h-3 shrink-0"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Elite interior -->
+          <div class="case-card bg-slate-900/90 border border-slate-800/90 rounded-2xl p-2.5 sm:p-4 hover:border-blue-500/50 transition-all flex flex-col justify-between shadow-lg group hover:-translate-y-1 duration-200" data-cat="Real Estate">
+            <div>
+              <!-- Photo / Screenshot -->
+              <div class="relative overflow-hidden rounded-xl bg-slate-950 aspect-[4/3] mb-2 sm:mb-3">
+                <img 
+                  src="Elite interior.jpg" 
+                  alt="Elevate Spaces Commercial Realty" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <span class="absolute top-1.5 left-1.5 bg-indigo-600/90 backdrop-blur-sm text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-md shadow">
+                  interior
+                </span>
+                <span class="absolute bottom-1.5 right-1.5 bg-slate-950/80 backdrop-blur-sm text-emerald-400 text-[8px] sm:text-[9px] font-semibold px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live
+                </span>
+              </div>
+
+              <!-- Title (Website Name) -->
+              <h3 class="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-1 group-hover:text-blue-400 transition-colors mb-1">
+                Elite interior
+              </h3>
+
+              <!-- Description -->
+              <p class="text-[10px] sm:text-xs text-slate-400 line-clamp-2 leading-snug sm:leading-relaxed mb-2.5">
+                Best website designs in the home interior category.
+              </p>
+            </div>
+
+            <!-- Website Link Button -->
+            <div class="pt-1 border-t border-slate-800/80">
+              <a 
+                href="https://eliteinterior.pro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full py-1.5 px-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[10px] sm:text-xs font-semibold flex items-center justify-center gap-1 transition-all shadow-sm shadow-blue-600/30"
+              >
+                <span>Visit Website</span>
+                <i data-lucide="external-link" class="w-3 h-3 shrink-0"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: Maa Kalaka Furniture -->
+          <div class="case-card bg-slate-900/90 border border-slate-800/90 rounded-2xl p-2.5 sm:p-4 hover:border-blue-500/50 transition-all flex flex-col justify-between shadow-lg group hover:-translate-y-1 duration-200" data-cat="Healthcare">
+            <div>
+              <!-- Photo / Screenshot -->
+              <div class="relative overflow-hidden rounded-xl bg-slate-950 aspect-[4/3] mb-2 sm:mb-3">
+                <img 
+                  src="Maa Kalaka Furniture.jpg" 
+                  alt="Aura Dental & Implant Clinic" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <span class="absolute top-1.5 left-1.5 bg-emerald-600/90 backdrop-blur-sm text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-md shadow">
+                  interior
+                </span>
+                <span class="absolute bottom-1.5 right-1.5 bg-slate-950/80 backdrop-blur-sm text-emerald-400 text-[8px] sm:text-[9px] font-semibold px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live
+                </span>
+              </div>
+
+              <!-- Title (Website Name) -->
+              <h3 class="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-1 group-hover:text-blue-400 transition-colors mb-1">
+                Maa Kalaka Furniture
+              </h3>
+
+              <!-- Description -->
+              <p class="text-[10px] sm:text-xs text-slate-400 line-clamp-2 leading-snug sm:leading-relaxed mb-2.5">
+                A website featuring unique, premium, and modern PVC furniture designs.
+              </p>
+            </div>
+
+            <!-- Website Link Button -->
+            <div class="pt-1 border-t border-slate-800/80">
+              <a 
+                href="https://www.maakalakafurniture.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full py-1.5 px-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[10px] sm:text-xs font-semibold flex items-center justify-center gap-1 transition-all shadow-sm shadow-blue-600/30"
+              >
+                <span>Visit Website</span>
+                <i data-lucide="external-link" class="w-3 h-3 shrink-0"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: Shree majisa plast mart -->
+          <div class="case-card bg-slate-900/90 border border-slate-800/90 rounded-2xl p-2.5 sm:p-4 hover:border-blue-500/50 transition-all flex flex-col justify-between shadow-lg group hover:-translate-y-1 duration-200" data-cat="E-Commerce">
+            <div>
+              <!-- Photo / Screenshot -->
+              <div class="relative overflow-hidden rounded-xl bg-slate-950 aspect-[4/3] mb-2 sm:mb-3">
+                <img 
+                  src="Shree Majisa Plast Mart.jpg" 
+                  alt="KalaCraft Luxury Decor Store" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <span class="absolute top-1.5 left-1.5 bg-amber-600/90 backdrop-blur-sm text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-md shadow">
+                  Interior
+                </span>
+                <span class="absolute bottom-1.5 right-1.5 bg-slate-950/80 backdrop-blur-sm text-emerald-400 text-[8px] sm:text-[9px] font-semibold px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live
+                </span>
+              </div>
+
+              <!-- Title (Website Name) -->
+              <h3 class="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-1 group-hover:text-blue-400 transition-colors mb-1">
+                Shree Majisa Plast Mart
+              </h3>
+
+              <!-- Description -->
+              <p class="text-[10px] sm:text-xs text-slate-400 line-clamp-2 leading-snug sm:leading-relaxed mb-2.5">
+                Designed a website for an interior business specializing in PVC furniture.
+              </p>
+            </div>
+
+            <!-- Website Link Button -->
+            <div class="pt-1 border-t border-slate-800/80">
+              <a 
+                href="https://www.shreemajisaplastmart.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full py-1.5 px-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[10px] sm:text-xs font-semibold flex items-center justify-center gap-1 transition-all shadow-sm shadow-blue-600/30"
+              >
+                <span>Visit Website</span>
+                <i data-lucide="external-link" class="w-3 h-3 shrink-0"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 5: ASM COINS -->
+          <div class="case-card bg-slate-900/90 border border-slate-800/90 rounded-2xl p-2.5 sm:p-4 hover:border-blue-500/50 transition-all flex flex-col justify-between shadow-lg group hover:-translate-y-1 duration-200" data-cat="Real Estate">
+            <div>
+              <!-- Photo / Screenshot -->
+              <div class="relative overflow-hidden rounded-xl bg-slate-950 aspect-[4/3] mb-2 sm:mb-3">
+                <img 
+                  src="ASM COINS.jpg" 
+                  alt="Rajpath Heritage Properties" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <span class="absolute top-1.5 left-1.5 bg-indigo-600/90 backdrop-blur-sm text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-md shadow">
+                  Trading
+                </span>
+                <span class="absolute bottom-1.5 right-1.5 bg-slate-950/80 backdrop-blur-sm text-emerald-400 text-[8px] sm:text-[9px] font-semibold px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live
+                </span>
+              </div>
+
+              <!-- Title (Website Name) -->
+              <h3 class="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-1 group-hover:text-blue-400 transition-colors mb-1">
+                ASM COINS
+              </h3>
+
+              <!-- Description -->
+              <p class="text-[10px] sm:text-xs text-slate-400 line-clamp-2 leading-snug sm:leading-relaxed mb-2.5">
+                It is a trading-category website where ASM is a coin.
+              </p>
+            </div>
+
+            <!-- Website Link Button -->
+            <div class="pt-1 border-t border-slate-800/80">
+              <a 
+                href="https://asmcoins.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full py-1.5 px-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[10px] sm:text-xs font-semibold flex items-center justify-center gap-1 transition-all shadow-sm shadow-blue-600/30"
+              >
+                <span>Visit Website</span>
+                <i data-lucide="external-link" class="w-3 h-3 shrink-0"></i>
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
 
-      <!-- Case Studies List -->
-      <section class="max-w-6xl mx-auto px-4 sm:px-6 space-y-8">
-
-        <!-- Case Study 1 -->
-        <div class="case-card bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 hover:border-blue-500/40 transition-all shadow-xl" data-cat="Interior Design">
-          <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-6">
-            <div>
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-xs font-bold text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">
-                  Interior Design • Satellite, Ahmedabad
-                </span>
-                <span class="text-xs text-slate-500 font-medium">60 Day Campaign</span>
-              </div>
-              <h2 class="text-xl sm:text-2xl font-extrabold text-white">
-                Shree Architecture & Interior Studio
-              </h2>
-            </div>
-            
-            <div class="bg-slate-950 border border-slate-800 px-5 py-3 rounded-2xl flex items-center gap-4 shrink-0">
-              <div>
-                <div class="text-xs text-slate-400 uppercase font-bold">ROI Metric</div>
-                <div class="text-xl sm:text-2xl font-black text-blue-400">+240% Inquiries</div>
-              </div>
-              <div class="h-8 w-[1px] bg-slate-800"></div>
-              <div>
-                <div class="text-xs text-slate-400 uppercase font-bold">Deals Closed</div>
-                <div class="text-xl sm:text-2xl font-black text-white">18 Luxury Villas</div>
-              </div>
-            </div>
+      <!-- Bottom Growth Action CTA -->
+      <section class="max-w-4xl mx-auto px-3 sm:px-6 mt-12 sm:mt-16 text-center">
+        <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[10px] sm:text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="sparkles" class="w-3 h-3"></i>
+            <span>WANT YOUR WEBSITE FEATURED HERE?</span>
           </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-slate-800/80 text-xs text-slate-300">
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="alert-circle" class="w-4 h-4 text-amber-400"></i> The Challenge
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Relied entirely on word-of-mouth with zero structured digital lead stream, missing high-ticket villa interior inquiries in Ahmedabad.
-              </p>
-            </div>
-
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="zap" class="w-4 h-4 text-blue-400"></i> Drex Strategy
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Custom interactive web app with 3D portfolio showcase & instant estimated budget calculator + hyper-targeted Meta video ad campaign.
-              </p>
-            </div>
-
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i> The Business Impact
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Generated ₹1.8 Cr in high-margin interior design contracts with a 14.2x Return on Ad Spend (ROAS).
-              </p>
-            </div>
-          </div>
-
-          <div class="mt-6 pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="text-xs text-slate-400 flex items-center gap-2">
-              <i data-lucide="shield-check" class="w-4 h-4 text-blue-400"></i>
-              <span>Verified Client Benchmark • Drex Agency Ahmedabad</span>
-            </div>
-            <button
-              onclick="openInquiryModal('Get Similar Results for Interior Design')"
-              class="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center justify-center gap-2 transition-colors shadow-md shadow-blue-600/20 cursor-pointer"
+          <h2 class="text-xl sm:text-3xl font-extrabold text-white mb-2 sm:mb-3">
+            Ready to Launch Your High-Converting Website?
+          </h2>
+          <p class="text-slate-400 text-xs sm:text-sm max-w-lg mx-auto mb-5 sm:mb-6">
+            Get a tailored web application, Google Maps search ranking, and high-ROI Meta ad campaigns managed directly by Vikash Kumar.
+          </p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a 
+              href="https://wa.me/916377155600?text=Hi%20Vikash%20Kumar!%20I%20am%20interested%20in%20building%20a%20website%20with%20Drex%20Agency."
+              target="_blank"
+              class="w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/30 transition-all cursor-pointer"
             >
               <i data-lucide="message-square" class="w-4 h-4"></i>
-              <span>Get Similar Results for Your Business</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Case Study 2 -->
-        <div class="case-card bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 hover:border-blue-500/40 transition-all shadow-xl" data-cat="Real Estate">
-          <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-6">
-            <div>
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-xs font-bold text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">
-                  Real Estate • SG Highway, Ahmedabad
-                </span>
-                <span class="text-xs text-slate-500 font-medium">90 Day Campaign</span>
-              </div>
-              <h2 class="text-xl sm:text-2xl font-extrabold text-white">
-                Elevate Luxury Spaces & Commercial Realty
-              </h2>
-            </div>
-            
-            <div class="bg-slate-950 border border-slate-800 px-5 py-3 rounded-2xl flex items-center gap-4 shrink-0">
-              <div>
-                <div class="text-xs text-slate-400 uppercase font-bold">ROI Metric</div>
-                <div class="text-xl sm:text-2xl font-black text-blue-400">+380% Qualified Leads</div>
-              </div>
-              <div class="h-8 w-[1px] bg-slate-800"></div>
-              <div>
-                <div class="text-xs text-slate-400 uppercase font-bold">Pipeline Value</div>
-                <div class="text-xl sm:text-2xl font-black text-white">₹1.2 Cr Closed</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-slate-800/80 text-xs text-slate-300">
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="alert-circle" class="w-4 h-4 text-amber-400"></i> The Challenge
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Low site speed and generic lead forms caused a 70% bounce rate on paid Google & Facebook traffic.
-              </p>
-            </div>
-
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="zap" class="w-4 h-4 text-blue-400"></i> Drex Strategy
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Built a sub-second React web application with 0.8s load time & one-click WhatsApp site visit booking trigger.
-              </p>
-            </div>
-
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i> The Business Impact
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Increased high-ticket commercial office space inquiries by 3.8x, closing ₹1.2 Cr in deals in Q2.
-              </p>
-            </div>
-          </div>
-
-          <div class="mt-6 pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="text-xs text-slate-400 flex items-center gap-2">
-              <i data-lucide="shield-check" class="w-4 h-4 text-blue-400"></i>
-              <span>Verified Client Benchmark • Drex Agency Ahmedabad</span>
-            </div>
-            <button
-              onclick="openInquiryModal('Get Similar Results for Real Estate')"
-              class="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center justify-center gap-2 transition-colors shadow-md shadow-blue-600/20 cursor-pointer"
+              <span>WhatsApp Founder Directly</span>
+            </a>
+            <a 
+              href="contact.html"
+              class="w-full sm:w-auto px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer border border-slate-700"
             >
-              <i data-lucide="message-square" class="w-4 h-4"></i>
-              <span>Get Similar Results for Your Business</span>
-            </button>
+              <i data-lucide="send" class="w-4 h-4 text-cyan-400"></i>
+              <span>Get Free Growth Audit</span>
+            </a>
           </div>
         </div>
-
-        <!-- Case Study 3 -->
-        <div class="case-card bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 hover:border-blue-500/40 transition-all shadow-xl" data-cat="Healthcare">
-          <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-6">
-            <div>
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-xs font-bold text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">
-                  Healthcare • Bodakdev, Ahmedabad
-                </span>
-                <span class="text-xs text-slate-500 font-medium">Local SEO Strategy</span>
-              </div>
-              <h2 class="text-xl sm:text-2xl font-extrabold text-white">
-                Aura Dental & Implant Clinic
-              </h2>
-            </div>
-            
-            <div class="bg-slate-950 border border-slate-800 px-5 py-3 rounded-2xl flex items-center gap-4 shrink-0">
-              <div>
-                <div class="text-xs text-slate-400 uppercase font-bold">Local SEO Lift</div>
-                <div class="text-xl sm:text-2xl font-black text-blue-400">+450% Phone Calls</div>
-              </div>
-              <div class="h-8 w-[1px] bg-slate-800"></div>
-              <div>
-                <div class="text-xs text-slate-400 uppercase font-bold">Google Maps</div>
-                <div class="text-xl sm:text-2xl font-black text-white">#1 Rank (18 Keywords)</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-slate-800/80 text-xs text-slate-300">
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="alert-circle" class="w-4 h-4 text-amber-400"></i> The Challenge
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Unranked on local Google search, losing nearby patient appointments to competing dental clinics in Bodakdev.
-              </p>
-            </div>
-
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="zap" class="w-4 h-4 text-blue-400"></i> Drex Strategy
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                GMB profile optimization, geo-tagged photo uploads, local schema citation auditing & review automation system.
-              </p>
-            </div>
-
-            <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/60">
-              <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-2">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i> The Business Impact
-              </h4>
-              <p class="text-slate-400 leading-relaxed">
-                Added 65+ new monthly walk-in patient appointments directly from Google Maps organic calls.
-              </p>
-            </div>
-          </div>
-
-          <div class="mt-6 pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="text-xs text-slate-400 flex items-center gap-2">
-              <i data-lucide="shield-check" class="w-4 h-4 text-blue-400"></i>
-              <span>Verified Client Benchmark • Drex Agency Ahmedabad</span>
-            </div>
-            <button
-              onclick="openInquiryModal('Get Similar Results for Healthcare')"
-              class="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center justify-center gap-2 transition-colors shadow-md shadow-blue-600/20 cursor-pointer"
-            >
-              <i data-lucide="message-square" class="w-4 h-4"></i>
-              <span>Get Similar Results for Your Business</span>
-            </button>
-          </div>
-        </div>
-
       </section>
 
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#050914] border-t border-slate-800/80 pt-16 pb-12 mt-20 text-slate-400 text-xs">
+    <footer class="bg-[#050914] border-t border-slate-800/80 pt-16 pb-12 mt-12 sm:mt-20 text-slate-400 text-xs">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <!-- Top Footer Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800/80">
@@ -435,20 +482,20 @@
                   <span class="text-white">Agency</span>
                 </div>
                 <span class="text-[9px] text-slate-400 font-medium tracking-wider uppercase">
-                  Ahmedabad, India
+                  South Bopal, Ahmedabad
                 </span>
               </div>
             </a>
 
             <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
-              Drex Agency is Ahmedabad's premier digital growth & web development firm. We engineer high-converting web applications, command local Google Maps search, and scale Meta ad campaigns.
+              Drex Agency is Ahmedabad's premier digital growth & web development firm based in South Bopal. We engineer high-converting web applications, command local Google Maps search, and scale Meta ad campaigns.
             </p>
 
             <!-- Social Media Links -->
             <div class="pt-2">
               <div class="text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-2.5">Follow & Connect</div>
               <div class="flex items-center gap-2.5">
-                <a href="https://wa.me/919106093850" target="_blank" aria-label="WhatsApp" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
+                <a href="https://wa.me/916377155600" target="_blank" aria-label="WhatsApp" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
                   <i data-lucide="message-square" class="w-4 h-4"></i>
                 </a>
                 <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 hover:border-pink-500/50 hover:bg-pink-500/10 hover:text-pink-400 text-slate-400 flex items-center justify-center transition-all cursor-pointer">
@@ -553,26 +600,21 @@
         menu.classList.toggle('hidden');
       }
 
-      function openInquiryModal(service) {
-        const text = encodeURIComponent(`Hi Drex Agency! I am inquiring from the Case Studies Page regarding: ${service}`);
-        window.open(`https://wa.me/916377155600?text=${text}`, '_blank');
-      }
-
       function filterProjects(cat) {
         const cards = document.querySelectorAll('.case-card');
         const btns = document.querySelectorAll('.project-btn');
 
         btns.forEach(btn => {
           if (btn.getAttribute('data-cat') === cat) {
-            btn.className = 'project-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white transition-colors cursor-pointer';
+            btn.className = 'project-btn active px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl text-[11px] sm:text-xs font-semibold bg-blue-600 text-white transition-colors cursor-pointer';
           } else {
-            btn.className = 'project-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-900 text-slate-400 border border-slate-800 hover:text-white transition-colors cursor-pointer';
+            btn.className = 'project-btn px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl text-[11px] sm:text-xs font-semibold bg-slate-900 text-slate-400 border border-slate-800 hover:text-white transition-colors cursor-pointer';
           }
         });
 
         cards.forEach(card => {
           if (cat === 'all' || card.getAttribute('data-cat') === cat) {
-            card.style.display = 'block';
+            card.style.display = 'flex';
           } else {
             card.style.display = 'none';
           }
